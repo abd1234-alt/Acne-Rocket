@@ -1,0 +1,15 @@
+{
+  "name": "acne-rockets",
+  "version": "1.0.0",
+  "description": "project",
+  "license": "ISC",
+  "author": "abdullah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

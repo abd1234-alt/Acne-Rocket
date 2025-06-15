@@ -1,0 +1,34 @@
+.rocket-container {
+    gap: 2.5vw;
+    justify-content: center;
+    
+}
+
+@mixin item {
+    border: #000 .1vw solid;
+    border-radius: 10%;
+    text-align: center;
+    width: 22vw;
+    padding-block: 1vw;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem 2rem .1rem #00000021;
+}
+
+.item {
+    @include item;
+}
+
+.item img {
+    width: 10vw;
+}
+
+.item p {
+    line-height: 2;
+    font-size: 2.5vw;
+    color: #0F172B;
+    /* font-weight: 600; */
+}
+
+.item p:last-child {
+    color: #698BAF;
+}

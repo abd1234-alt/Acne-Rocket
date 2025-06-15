@@ -1,0 +1,75 @@
+header {
+    background-color: #007865;
+    padding: 2vw;
+    color: white;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+
+.name {
+    gap: .2vw;
+}
+
+.logo {
+    width: 3.5vw;
+}
+
+header h1 {
+    font-size: 2.2vw;
+    font-weight: 900;
+}
+
+header ul {
+    gap: 3vw;
+    list-style: none;
+    font-size: 1.9vw;
+    font-weight: 600;
+}
+
+header ul li {
+    transition: all 0.6s ease-in-out;
+    color: white;
+}
+
+header ul li:hover {
+    color: rgb(232, 230, 230);
+}
+
+ul li a {
+  text-decoration: none !important;
+  color: inherit; /* optional */
+}
+
+.hero {
+    justify-content: space-around;
+    padding-inline: 11vw;
+    /* gap: 1vw; */
+}
+
+.hero-1 h2 {
+    font-size: 4.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 800; */
+    width: 38vw;
+    line-height: 1;
+    margin-bottom: 1.8vw;
+    color: #0F172B;
+}
+
+.hero-1 h2 span {
+    color: #5242D5;
+
+}
+
+.hero-1 p {
+    font-size: 2rem;
+    width: 30vw;
+    /* color: rgba(0, 0, 0, 0.742); */
+    color: #344766;
+    margin-bottom: 1.8vw;
+}
+
+.hero-img img {
+    width: 36vw;
+}
+

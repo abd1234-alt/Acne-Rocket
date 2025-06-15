@@ -1,0 +1,33 @@
+footer {
+    background-color: #00786F;
+    width: 100%;
+    justify-content: space-around;
+    gap: 3vw;
+    padding: 2vw;
+    color: white;
+    display: flex;
+}
+
+footer ul {
+    font-size: 1.7vw;
+    font-style: italic;
+    line-height: 1.4;
+    list-style: none;
+}
+
+.middle-ul ul {
+    flex-direction: column;
+    line-height: 1.8;
+}
+
+.middle-ul a {
+    text-decoration: none;
+}
+
+.middle-ul ul li {
+    color: white;
+}
+
+.last-ul ul {
+    text-align: rght;
+}
